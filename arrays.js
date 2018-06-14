@@ -47,3 +47,8 @@ function removeElementFromEndOfArray(array)
   var Array = array.splice(-1, 1)
   return Array
 }
+
+function destructivelyRemoveElementFromEndOfArray(array)
+{
+  return array.slice(-1)
+}
