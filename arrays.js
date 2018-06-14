@@ -32,13 +32,13 @@ function accessElementInArray(array, index)
 
 function removeElementFromBeginningOfArray(array)
 {
-  var Array = array.splice(1)
+  var Array = array.slice(1)
   return Array
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array)
 {
-  return array.splice(1)
+  return array.slice(1)
 }
 
 function removeElementFromEndOfArray(array)
